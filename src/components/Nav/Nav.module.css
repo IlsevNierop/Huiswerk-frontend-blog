@@ -1,10 +1,13 @@
-.nav {
+.nav-outer {
     background-color: orange;
+
+}
+
+.nav-inner {
     padding: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
 }
 .nav-ul {
     display: flex;
@@ -15,11 +18,4 @@
     list-style: none;
 }
 
-.nav-button  {
-    background-color: lightyellow;
-    border-radius: 10px;
-    border: 1px solid darkblue;
-    color:darkblue;
-    padding: 4px;
-}
 

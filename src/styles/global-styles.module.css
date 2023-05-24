@@ -1,0 +1,37 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Typography (type selectors) */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    min-height: 100vh;
+}
+
+:global .outer-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+:global .inner-container {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 1200px;
+    margin-inline: 1rem;
+    gap: 1rem;
+}
+
+button {
+    background-color: linen;
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 4px 8px;
+    width: 100px;
+}
