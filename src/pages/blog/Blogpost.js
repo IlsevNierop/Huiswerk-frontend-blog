@@ -17,7 +17,7 @@ function Blogpost() {
                 <h3>{blogpost.date}</h3>
                 <p>{blogpost.content}</p>
             </article>
-            <Link to="/">Terug Naar Home</Link>
+            <Link to="/blogposts">Terug naar het overzicht van de blogposts</Link>
         </>
     )
 }
