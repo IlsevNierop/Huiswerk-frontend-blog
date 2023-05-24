@@ -1,0 +1,26 @@
+nav {
+    background-color: orange;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.nav-ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.nav-li {
+    list-style: none;
+}
+
+/*.nav-menu-left {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    width: 100px;*/
+/*}*/
+
+/*.nav-menu-right {*/
+/*    */
+/*}*/
