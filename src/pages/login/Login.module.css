@@ -1,0 +1,30 @@
+
+.login-inner{
+    align-items: center;
+}
+
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 20px;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.input-field > input {
+    font-size: 12px;
+    padding: 0 10px;
+    text-overflow: ellipsis;
+    width: 170px;
+}
+
+.error {
+    color: crimson;
+}

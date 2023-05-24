@@ -1,0 +1,11 @@
+.blog-overview {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 550px;
+    margin: 40px 0;
+}
+
+.blog-overview-ul {
+    list-style: none;
+}

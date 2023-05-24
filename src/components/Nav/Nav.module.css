@@ -1,0 +1,21 @@
+.nav-outer {
+    background-color: orange;
+
+}
+
+.nav-inner {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.nav-li {
+    list-style: none;
+}
+
+
